@@ -171,11 +171,11 @@ defaultSettings:
   v2DataEngine: ~
   offlineReplicaRebuilding: ~
 privateRegistry:
-  createSecret: ~
-  registryUrl: ~
-  registryUser: ~
-  registryPasswd: ~
-  registrySecret: ~
+  createSecret: true
+  registryUrl: ryao-docker.ci-qa.rancher.space
+  registryUser: admin
+  registryPasswd: admin
+  registrySecret: ryao-repro
 
 longhornManager:
   log:
